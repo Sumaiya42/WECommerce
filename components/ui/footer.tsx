@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="space-y-3 text-sm text-gray-300">
             <p className="flex items-start gap-2">
               <span className="text-[#D4AF37]">📍</span>
-              <span>Holding 24, Road 02, Sutrapur, Bogura - 5800, Bangladesh</span>
+              <span>High School Road (Oppsite of Tanvir Store), Malatinagar, Bogura, Bangladesh</span>
             </p>
             <p className="flex items-center gap-2">
               <span className="text-[#D4AF37]">📞</span>
