@@ -37,7 +37,7 @@ export default function Header() {
             </div>
             <div>
               <div className="font-bold text-[#8B1538] text-lg">BWCCI</div>
-              <div className="text-[#D4AF37] text-xs font-semibold">BOGURA WOMEN CHAMBER</div>
+              <div className="text-[#D4AF37] text-xs font-semibold">BOGURA WOMEN CHAMBER OF COMMERCE & INDUSTRY</div>
             </div>
           </Link>
 
