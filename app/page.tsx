@@ -44,7 +44,7 @@ export default function Home() {
             <div className="text-center">
               <div className="inline-block bg-[#8B1538] text-white rounded-full w-32 h-32 flex items-center justify-center mb-4">
                 <div className="text-center">
-                  <div className="font-playfair text-4xl font-bold">500+</div>
+                  <div className="font-playfair text-4xl font-bold">100+</div>
                   <div className="text-sm">Active Members</div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function Home() {
               <p className="text-gray-200">Committees</p>
             </div>
             <div>
-              <div className="font-playfair text-5xl font-bold text-[#D4AF37] mb-2">50+</div>
+              <div className="font-playfair text-5xl font-bold text-[#D4AF37] mb-2">25+</div>
               <p className="text-gray-200">Events Yearly</p>
             </div>
             <div>
