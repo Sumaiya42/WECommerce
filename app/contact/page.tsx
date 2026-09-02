@@ -1,3 +1,4 @@
+// app/contact/page.jsx
 import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
 import ContactForm from '@/components/ui/contact-form'

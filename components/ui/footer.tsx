@@ -44,11 +44,11 @@ export default function Footer() {
             </p>
             <p className="flex items-center gap-2">
               <span className="text-[#D4AF37]">📞</span>
-              <span>+880 1711131326</span>
+              <span>+880 1855687030</span>
             </p>
             <p className="flex items-center gap-2">
               <span className="text-[#D4AF37]">📧</span>
-              <span>info@bwccibogura.org</span>
+              <span>nazmalize@gmail.com</span>
             </p>
           </div>
         </div>

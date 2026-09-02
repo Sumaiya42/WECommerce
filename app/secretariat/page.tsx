@@ -33,7 +33,7 @@ export default function SecretariatPage() {
         </div>
 
         {/* Wings Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* General Affairs Wing */}
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
             <div className="text-5xl mb-4 text-[#D4AF37]">📁</div>
@@ -86,42 +86,6 @@ export default function SecretariatPage() {
             <p className="text-gray-700 text-sm">
               Provides a supportive, fast-track mediation system for resolving commercial, supplier, or property-lease disputes for women business owners at minimum expense.
             </p>
-          </div>
-        </div>
-
-        {/* Secretariat Officials */}
-        <div className="mt-20">
-          <h2 className="font-playfair text-4xl font-bold text-[#8B1538] mb-12 pb-4 border-b-4 border-[#D4AF37] inline-block">
-            Secretariat Officials
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-            {/* Official 1 */}
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 text-center hover:shadow-lg transition">
-              <h3 className="font-bold text-[#8B1538] text-lg mb-2">Ferdousi Begum</h3>
-              <p className="text-[#D4AF37] font-semibold text-sm mb-4">SECRETARY GENERAL</p>
-              <p className="text-gray-700 text-sm">
-                <strong>Email:</strong> sg@bwccibogura.org
-              </p>
-            </div>
-
-            {/* Official 2 */}
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 text-center hover:shadow-lg transition">
-              <h3 className="font-bold text-[#8B1538] text-lg mb-2">Farzana Yasmin</h3>
-              <p className="text-[#D4AF37] font-semibold text-sm mb-4">ASSISTANT IT OFFICER</p>
-              <p className="text-gray-700 text-sm">
-                <strong>Email:</strong> it@bwccibogura.org
-              </p>
-            </div>
-
-            {/* Official 3 */}
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 text-center hover:shadow-lg transition">
-              <h3 className="font-bold text-[#8B1538] text-lg mb-2">Moushumi Akhter</h3>
-              <p className="text-[#D4AF37] font-semibold text-sm mb-4">ACCOUNTS EXECUTIVE</p>
-              <p className="text-gray-700 text-sm">
-                <strong>Email:</strong> accounts@bwccibogura.org
-              </p>
-            </div>
           </div>
         </div>
       </div>

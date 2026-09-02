@@ -28,7 +28,7 @@ export default function AboutPage() {
               Who We Are
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The Bogura Women Chamber of Commerce and Industry (BWCCI) is a non-profit, non-political trade organization formed by a visionary group of women entrepreneurs. It was established to act as the voice of women business owners who often struggle to navigate the traditional, male-dominated chambers.
+              The Bogura Women Chamber of Commerce and Industry (BWCCI) is a non-profit, non-political trade organization formed by a visionary group of women entrepreneurs. It was established in 2026 by Nazma Sultana to act as the voice of women business owners who often struggle to navigate the traditional.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Since its foundation, BWCCI has grown to become the premiere regional catalyst for female economic empowerment. By offering critical networking circles, mentorship pathways, policy representation, and professional capacity workshops, we have helped hundreds of micro and small women entrepreneurs transition into formal and sustainable business owners.

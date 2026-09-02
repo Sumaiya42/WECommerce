@@ -12,30 +12,8 @@ type Notice = {
 }
 
 const notices: Notice[] = [
-  {
-    title: 'BWCCI Annual General Meeting 2026 Notice',
-    date: 'May 10, 2026',
-    category: 'Notices',
-    summary: 'Official notice for BWCCI AGM 2026 including agenda, venue details, and registration instructions.',
-    details: 'This notice contains the complete agenda for the BWCCI AGM 2026, membership voting details, and information on how attendees should register and prepare for the meeting.',
-    filename: 'BWCCI-AGM-2026-Notice.txt',
-  },
-  {
-    title: 'SME Expo Stall Allotment Announcement',
-    date: 'April 15, 2026',
-    category: 'Events',
-    summary: 'Notification for stall allotment and exhibitor guidelines for the upcoming Bogura Women SME Expo.',
-    details: 'The allotment announcement explains booth locations, exhibitor responsibilities, setup schedule, and logistical support available during the SME Expo.',
-    filename: 'SME-Expo-Stall-Allotment.txt',
-  },
-  {
-    title: 'Training Program Registration Open',
-    date: 'March 22, 2026',
-    category: 'Resources',
-    summary: 'Registration is now open for the Digital E-Commerce Bootcamp for women entrepreneurs with limited seats available.',
-    details: 'This resource notice explains registration deadlines, course curriculum, venue details, and payment instructions for the Digital E-Commerce Bootcamp.',
-    filename: 'Training-Program-Registration.txt',
-  },
+  // All three notices have been removed as requested
+  // Add new notices here when needed
 ]
 
 const categories = ['All', 'Notices', 'Events', 'Resources']
@@ -80,35 +58,42 @@ export default function NoticeBoard() {
         ))}
       </div>
 
-      <div className="space-y-6">
-        {filteredNotices.map((notice) => (
-          <article key={notice.title} className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <h2 className="text-2xl font-semibold text-[#8B1538]">{notice.title}</h2>
-                <p className="text-sm text-gray-500 mt-1">{notice.date} · {notice.category}</p>
+      {notices.length === 0 ? (
+        <div className="rounded-3xl border border-gray-200 bg-white p-12 text-center shadow-sm">
+          <p className="text-gray-500">No notices available at the moment.</p>
+          <p className="text-sm text-gray-400 mt-2">Please check back later for updates.</p>
+        </div>
+      ) : (
+        <div className="space-y-6">
+          {filteredNotices.map((notice) => (
+            <article key={notice.title} className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <h2 className="text-2xl font-semibold text-[#8B1538]">{notice.title}</h2>
+                  <p className="text-sm text-gray-500 mt-1">{notice.date} · {notice.category}</p>
+                </div>
+                <div className="flex flex-wrap gap-3">
+                  <button
+                    type="button"
+                    className="rounded bg-[#8B1538] px-4 py-2 text-sm font-semibold text-white shadow hover:bg-[#6c1130] transition"
+                    onClick={() => setSelectedNotice(notice)}
+                  >
+                    View
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded border border-[#8B1538] px-4 py-2 text-sm font-semibold text-[#8B1538] hover:bg-[#f9f5f3] transition"
+                    onClick={() => downloadNotice(notice)}
+                  >
+                    Download
+                  </button>
+                </div>
               </div>
-              <div className="flex flex-wrap gap-3">
-                <button
-                  type="button"
-                  className="rounded bg-[#8B1538] px-4 py-2 text-sm font-semibold text-white shadow hover:bg-[#6c1130] transition"
-                  onClick={() => setSelectedNotice(notice)}
-                >
-                  View
-                </button>
-                <button
-                  type="button"
-                  className="rounded border border-[#8B1538] px-4 py-2 text-sm font-semibold text-[#8B1538] hover:bg-[#f9f5f3] transition"
-                  onClick={() => downloadNotice(notice)}
-                >
-                  Download
-                </button>
-              </div>
-            </div>
-            <p className="mt-4 text-gray-700">{notice.summary}</p>
-          </article>
-        ))}
-      </div>
+              <p className="mt-4 text-gray-700">{notice.summary}</p>
+            </article>
+          ))}
+        </div>
+      )}
 
       {selectedNotice && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">

@@ -6,19 +6,6 @@ export const metadata = {
   description: 'Upcoming fairs, training sessions, and past activities hosted by BWCCI',
 }
 
-const upcoming = [
-  { date: '12 JUL', title: 'Bogura Women SME Expo 2026', desc: 'A grand 5-day exhibition showcasing boutique embroidery, hand-woven fabrics, clay items, and food products by 120+ female SME owners.', venue: 'Bogura Municipal Grounds' },
-  { date: '28 JUL', title: 'Digital E-Commerce Bootcamp', desc: 'Hands-on practice on listing inventory, running promotional campaigns, and managing bKash/Nagad merchant accounts for local startups.', venue: 'BWCCI Seminar Hall' },
-  { date: '15 AUG', title: 'Agro Packaging & Preservation', desc: 'Learn modern packaging, shelf-life expansion, labeling regulations, and food safety standards from visiting research experts.', venue: 'Upazila Auditorium, Bogura' },
-]
-
-const past = [
-  { date: 'May 18, 2026', title: 'NBR Pre-Budget Dialogue', desc: 'Joint meeting with NBR and district tax officials recommending zero-VAT on handicraft trade transactions run by women.' },
-  { date: 'March 10, 2026', title: 'Financial Bookkeeping Training', desc: 'Two-day session covering cash-flow accounting, profit margins, bank loan files, and tax documentation for 50 startups.' },
-  { date: 'Dec 24, 2025', title: 'Bogura Winter Boutique Craft Fair', desc: 'Three-day boutique and traditional handicraft expo held at Bogura Edward Park, generating significant sales.' },
-  { date: 'Sep 15, 2025', title: 'BWCCI Annual General Meeting 2025', desc: 'Annual gathering to review financial accounts, audit reports, and announce upcoming plans.' },
-]
-
 export default function EventsPage() {
   return (
     <>
@@ -33,40 +20,9 @@ export default function EventsPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main column */}
+          {/* Main column - Empty now */}
           <main className="lg:col-span-2">
-            <h2 className="font-playfair text-3xl font-bold text-[#8B1538] mb-6">Upcoming Fairs & Training Sessions</h2>
-
-            <div className="space-y-6 mb-12">
-              {upcoming.map((ev) => (
-                <article key={ev.title} className="bg-white p-6 rounded shadow flex gap-6 items-start">
-                  <div className="w-24 text-center">
-                    <div className="text-2xl font-bold text-[#8B1538]">{ev.date.split(' ')[0]}</div>
-                    <div className="text-sm text-gray-500">{ev.date.split(' ')[1]}</div>
-                  </div>
-                  <div>
-                    <h3 className="font-playfair text-xl font-bold text-[#8B1538]">{ev.title}</h3>
-                    <p className="text-sm text-gray-700 mt-2">{ev.desc}</p>
-                    <p className="mt-3 text-sm text-gray-600">📍 Venue: {ev.venue}</p>
-                  </div>
-                </article>
-              ))}
-            </div>
-
-            <h2 className="font-playfair text-3xl font-bold text-[#8B1538] mb-6">Milestones & Past Activities</h2>
-            <div className="space-y-6">
-              {past.map((p) => (
-                <div key={p.title} className="bg-white p-6 rounded shadow">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <h3 className="font-playfair text-xl font-bold text-[#8B1538]">{p.title}</h3>
-                      <p className="text-sm text-gray-700 mt-2">{p.desc}</p>
-                    </div>
-                    <div className="text-sm text-gray-500">{p.date}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            {/* Content removed */}
           </main>
 
           {/* Sidebar */}

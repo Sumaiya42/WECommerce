@@ -12,17 +12,17 @@ export default function Header() {
       <div className="bg-[#8B1538] text-white text-sm py-3 px-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-2 md:gap-0">
           <div className="flex flex-col sm:flex-row gap-3 text-xs items-center sm:items-start">
-            <a href="mailto:info@bwccibogura.org" className="flex items-center gap-1 hover:text-[#D4AF37]">
-              📧 info@bwccibogura.org
+            <a href="mailto:nazmalize@gmail.com" className="flex items-center gap-1 hover:text-[#D4AF37]">
+              📧 nazmalize@gmail.com
             </a>
-            <span className="flex items-center gap-1">📞 +880 1711131326</span>
-            <span className="flex items-center gap-1">📍 Sutrapur, Bogura, Bangladesh</span>
+            <span className="flex items-center gap-1">📞 +880 1855687030</span>
+            <span className="flex items-center gap-1">📍 High School Road (Oppsite of Tanvir Store), Malatinagar,  Bogura, Bangladesh</span>
           </div>
           <div className="flex gap-3 items-center">
-            <a href="#" className="hover:text-[#D4AF37]">FB</a>
-            <a href="#" className="hover:text-[#D4AF37]">TW</a>
-            <a href="#" className="hover:text-[#D4AF37]">LN</a>
-            <a href="#" className="hover:text-[#D4AF37]">YT</a>
+            <a href="https://www.facebook.com/share/1CPzsChGPc/" className="hover:text-[#D4AF37]">FB</a>
+            <a href="https://www.facebook.com/share/1CPzsChGPc/" className="hover:text-[#D4AF37]">TW</a>
+            <a href="https://www.facebook.com/share/1CPzsChGPc/" className="hover:text-[#D4AF37]">LN</a>
+            <a href="https://www.facebook.com/share/1CPzsChGPc/" className="hover:text-[#D4AF37]">YT</a>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function Header() {
             </div>
 
             <Link href="/services" className="text-[#2D2D2D] hover:text-[#8B1538] transition">Services</Link>
-            <Link href="/committees" className="text-[#2D2D2D] hover:text-[#8B1538] transition">Committees</Link>
+            <Link href="" className="text-[#2D2D2D] hover:text-[#8B1538] transition"></Link>
             <Link href="/membership" className="text-[#2D2D2D] hover:text-[#8B1538] transition">Membership</Link>
             <Link href="/events" className="text-[#2D2D2D] hover:text-[#8B1538] transition">Events</Link>
             <Link href="/gallery" className="text-[#2D2D2D] hover:text-[#8B1538] transition">Gallery</Link>
@@ -86,7 +86,7 @@ export default function Header() {
             <Link href="/secretariat" className="block text-[#2D2D2D] hover:text-[#8B1538]">Secretariat Wings</Link>
             <Link href="/board-directors" className="block text-[#2D2D2D] hover:text-[#8B1538]">Board of Directors</Link>
             <Link href="/services" className="block text-[#2D2D2D] hover:text-[#8B1538]">Services</Link>
-            <Link href="/committees" className="block text-[#2D2D2D] hover:text-[#8B1538]">Committees</Link>
+            <Link href="" className="block text-[#2D2D2D] hover:text-[#8B1538]"></Link>
             <Link href="/membership" className="block text-[#2D2D2D] hover:text-[#8B1538]">Membership</Link>
             <Link href="/events" className="block text-[#2D2D2D] hover:text-[#8B1538]">Events</Link>
             <Link href="/gallery" className="block text-[#2D2D2D] hover:text-[#8B1538]">Gallery</Link>

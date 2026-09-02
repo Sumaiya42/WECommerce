@@ -34,16 +34,16 @@ export default function BoardDirectorsPage() {
               <div className="w-full h-80 mb-6 rounded-xl overflow-hidden shadow-lg border-4 border-[#D4AF37]">
                 <Image
                   src="/president.png"
-                  alt="Begum Rokeya Rahman - President"
+                  alt="Nazma Sultana - President"
                   width={300}
                   height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-playfair text-2xl font-bold text-[#8B1538] mb-2">Begum Rokeya Rahman</h3>
+              <h3 className="font-playfair text-2xl font-bold text-[#8B1538] mb-2">Nazma Sultana</h3>
               <p className="text-[#D4AF37] font-bold text-lg mb-3">PRESIDENT</p>
               <p className="text-gray-700 text-sm">
-                Founder Director of North-Bengal Trade Forum with over 15 years of experience in women entrepreneurship development
+                Founder & owner of Jabin's Collection with over 16 years of experience in women entrepreneurship development
               </p>
             </div>
 
@@ -51,35 +51,35 @@ export default function BoardDirectorsPage() {
             <div className="text-center">
               <div className="w-full h-80 mb-6 rounded-xl overflow-hidden shadow-lg border-4 border-[#D4AF37]">
                 <Image
-                  src="/office-bearer-2.png"
-                  alt="Shamima Ara - Vice President"
+                  src="/Sadika Nasim Banu.jpeg"
+                  alt="Sadika Nasim Banu - Senior Vice President"
                   width={300}
                   height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-playfair text-2xl font-bold text-[#8B1538] mb-2">Shamima Ara</h3>
-              <p className="text-[#D4AF37] font-bold text-lg mb-3">VICE PRESIDENT</p>
+              <h3 className="font-playfair text-2xl font-bold text-[#8B1538] mb-2">Sadika Nasim Banu</h3>
+              <p className="text-[#D4AF37] font-bold text-lg mb-3">SENIOR VICE PRESIDENT</p>
               <p className="text-gray-700 text-sm">
-                Leading export-oriented enterprise with expertise in international trade and market expansion for women-led businesses
+                Founder & Owner of Arora Business Management, Shova Enterprise, and Matching
               </p>
             </div>
 
-            {/* Secretary General */}
+            {/* VICE PRESIDENT */}
             <div className="text-center">
               <div className="w-full h-80 mb-6 rounded-xl overflow-hidden shadow-lg border-4 border-[#D4AF37]">
                 <Image
-                  src="/office-bearer-3.png"
-                  alt="Dr. Nusrat Jahan - Secretary General"
+                  src="/Labiba Anjum.jpeg"
+                  alt="Labiba Anjum - Senior Vice President"
                   width={300}
                   height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-playfair text-2xl font-bold text-[#8B1538] mb-2">Dr. Nusrat Jahan</h3>
-              <p className="text-[#D4AF37] font-bold text-lg mb-3">SECRETARY GENERAL</p>
+              <h3 className="font-playfair text-2xl font-bold text-[#8B1538] mb-2">Labiba Anjum</h3>
+              <p className="text-[#D4AF37] font-bold text-lg mb-3">VICE PRESIDENT</p>
               <p className="text-gray-700 text-sm">
-                Healthcare entrepreneur with passion for capacity building and policy advocacy for women entrepreneurs
+                Managing Director Premium Cars & Automobile's Ltd
               </p>
             </div>
           </div>
@@ -92,75 +92,147 @@ export default function BoardDirectorsPage() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            {/* Director 1 */}
+            {/* Director 1 - Sultana Parvin */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
-                <div className="w-full h-full flex items-center justify-center text-4xl">👩‍💼</div>
+                <Image
+                  src="/Sultana Parvin.jpeg"
+                  alt="MST. Sultana Parvin - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Fatima Khanum</h3>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">MST. Sultana Parvin</h3>
               <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
               <p className="text-gray-700 text-xs">
-                Textile entrepreneur & policy advocate with 12 years in garment manufacturing
+                Haji Muhammad joynal abedin commerce college. Bogura shadar. Bogura
               </p>
             </div>
 
-            {/* Director 2 */}
+            {/* Director 2 - Sharmin Sultana  */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
-                <div className="w-full h-full flex items-center justify-center text-4xl">👩‍💼</div>
+                <Image
+                  src="/Sharmin Sultana.jpeg"
+                  alt="Sharmin Sultana  - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Rukhsana Begum</h3>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Sharmin Sultana</h3>
               <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
               <p className="text-gray-700 text-xs">
-                Agro-processing expert specializing in value-added food product development
+                Owner Velveta Agro & Food
               </p>
             </div>
 
-            {/* Director 3 */}
+            {/* Director 3 - MST. Rina Parvin */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
-                <div className="w-full h-full flex items-center justify-center text-4xl">👩‍💼</div>
+                <Image
+                  src="/Rina Parvin.jpeg"
+                  alt="MST. Rina Parvin - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Nasrin Akhter</h3>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">MST. Rina Parvin</h3>
               <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
               <p className="text-gray-700 text-xs">
-                Handicraft entrepreneur promoting traditional Bogura pottery globally
+               Owner of Anik Pharmacy
               </p>
             </div>
 
-            {/* Director 4 */}
+            {/* Director 4 - MST. Beauty Khatun */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
-                <div className="w-full h-full flex items-center justify-center text-4xl">👩‍💼</div>
+                <Image
+                  src="/Beauty Khatun.jpeg"
+                  alt="MST. Beauty Khatun - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Yasmin Sultana</h3>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">MST. Beauty Khatun</h3>
               <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
               <p className="text-gray-700 text-xs">
-                IT entrepreneur and digital literacy trainer for rural women businesses
+                Owner of Expert
               </p>
             </div>
 
-            {/* Director 5 */}
+            {/* Director 5 - Afsana Azad */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
-                <div className="w-full h-full flex items-center justify-center text-4xl">👩‍💼</div>
+                <Image
+                  src="/Afsana Azad.jpeg"
+                  alt="Sadia Khan - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Sadia Khan</h3>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Afsana Azad</h3>
               <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
               <p className="text-gray-700 text-xs">
-                Retail business owner and financial literacy program coordinator
+                Owner of Vinnota
               </p>
             </div>
 
-            {/* Director 6 */}
+            {/* Director 6 - MST. Ayesha Siddika */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
-                <div className="w-full h-full flex items-center justify-center text-4xl">👩‍💼</div>
+                <Image
+                  src="/Ayesha Siddika.jpeg"
+                  alt="MST. Ayesha Siddika  - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Maliha Rahman</h3>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">MST. Ayesha Siddika </h3>
               <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
               <p className="text-gray-700 text-xs">
-                Tour & travel agency owner and export promotion council member
+                Owner of SB Collection
+              </p>
+            </div>
+
+            {/* Director 7 - Esrat Karim */}
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
+                <Image
+                  src="/Esrat Karim.jpeg"
+                  alt="Esrat Karim - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Esrat Karim</h3>
+              <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
+              <p className="text-gray-700 text-xs">
+                Owner of Amal Foundation
+              </p>
+            </div>
+
+            {/* Director 8 - Sayeda Mantasha Alam */}
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition text-center">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#D4AF37] bg-[#F5F5F5]">
+                <Image
+                  src="/Sayeda Mantasha Alam.jpeg"
+                  alt="Sayeda Mantasha Alam - Board Director"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="font-bold text-[#8B1538] text-lg mb-1">Sayeda Mantasha Alam</h3>
+              <p className="text-[#D4AF37] font-semibold text-sm mb-3">BOARD DIRECTOR</p>
+              <p className="text-gray-700 text-xs">
+                Owner of Aparajita International
               </p>
             </div>
           </div>

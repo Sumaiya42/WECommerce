@@ -27,13 +27,13 @@ export default function MembershipPage() {
             <div className="space-y-6">
               <div className="bg-white p-6 rounded shadow">
                 <h3 className="font-bold text-xl text-[#8B1538]">General Member</h3>
-                <p className="text-sm text-gray-700">Annual Subscription: BDT 3,000</p>
+                <p className="text-sm text-gray-700">Monthly Subscription: BDT 700</p>
                 <p className="mt-3 text-gray-700">For established women-led firms, boutique houses, processing plants, and formal shops in Bogura. Requires a valid Trade License and TIN certification.</p>
               </div>
 
               <div className="bg-white p-6 rounded shadow">
                 <h3 className="font-bold text-xl text-[#8B1538]">Associate Member</h3>
-                <p className="text-sm text-gray-700">Annual Subscription: BDT 1,000</p>
+                <p className="text-sm text-gray-700">Monthly Subscription: BDT 500</p>
                 <p className="mt-3 text-gray-700">For home-based boutiques, micro cottage artisans, and young female startup founders. Trade license is not mandatory initially.</p>
               </div>
 
