@@ -169,8 +169,8 @@ export default function Home() {
             <h2 className="font-playfair text-3xl font-bold text-[#8B1538] mb-6">Upcoming Events</h2>
             <div className="space-y-4">
               <div className="bg-white border-l-4 border-[#D4AF37] p-6 rounded shadow">
-                <h4 className="font-bold text-[#8B1538] mb-2">Spring Trade Fair 2026</h4>
-                <p className="text-gray-600 text-sm">March 15-17 | Bogura Exhibition Ground</p>
+                <h4 className="font-bold text-[#8B1538] mb-2">Winter Trade Fair 2026</h4>
+                <p className="text-gray-600 text-sm">28 November 2026 | Bogura Exhibition Ground</p>
               </div>
               <div className="bg-white border-l-4 border-[#D4AF37] p-6 rounded shadow">
                 <h4 className="font-bold text-[#8B1538] mb-2">Digital Marketing Workshop</h4>

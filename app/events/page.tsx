@@ -54,9 +54,9 @@ export default function EventsPage() {
 
             <div className="bg-white p-6 rounded shadow">
               <h4 className="font-playfair text-lg font-bold text-[#8B1538] mb-2">Contact Details</h4>
-              <p className="text-sm text-gray-700">📍 Holding 24, Road 02, Sutrapur, Bogura - 5800, Bangladesh</p>
-              <p className="text-sm text-gray-700">📞 +880 1711131326</p>
-              <p className="text-sm text-gray-700">✉️ info@bwccibogura.org</p>
+              <p className="text-sm text-gray-700">📍 High School Road (Oppsite of Tanvir Store), Malatinagar, Bogura, Bangladesh</p>
+              <p className="text-sm text-gray-700">📞 +880 1855687030</p>
+              <p className="text-sm text-gray-700">✉️ nazmalize@gmail.com</p>
             </div>
           </aside>
         </div>
