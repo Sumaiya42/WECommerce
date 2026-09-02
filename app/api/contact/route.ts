@@ -1,10 +1,10 @@
 import { Resend } from 'resend'
 import { NextResponse } from 'next/server'
 
+const resend = new Resend(process.env.RESEND_API_KEY)
+
 export async function POST(request: Request) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY)
-
     const { name, email, phone, subject, message } = await request.json()
 
     if (!name || !email || !message) {
@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     const data = await resend.emails.send({
       from: 'BWCCI Contact <onboarding@resend.dev>',
       to: ['nazmalize@gmail.com'],
-      replyTo: email, // 👈 Updated from reply_to to replyTo
+      replyTo: email, // ✅ Correct - TypeScript is happy with this
       subject: `Contact Form: ${subject}`,
       html: `
         <!DOCTYPE html>
