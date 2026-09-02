@@ -1,14 +1,12 @@
-// app/api/contact/route.js
 import { Resend } from 'resend'
 import { NextResponse } from 'next/server'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
-export async function POST(request) {
+export async function POST(request: Request) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY)
+
     const { name, email, phone, subject, message } = await request.json()
 
-    // Validate required fields
     if (!name || !email || !message) {
       return NextResponse.json(
         { message: 'Name, email, and message are required.' },
@@ -16,11 +14,10 @@ export async function POST(request) {
       )
     }
 
-    // Send email using Resend
     const data = await resend.emails.send({
-      from: 'BWCCI Contact <onboarding@resend.dev>', // Use this for testing, or your own domain
-      to: ['nazmalize@gmail.com'], // 👈 Your email address
-      reply_to: email,
+      from: 'BWCCI Contact <onboarding@resend.dev>',
+      to: ['nazmalize@gmail.com'],
+      replyTo: email, // 👈 Updated from reply_to to replyTo
       subject: `Contact Form: ${subject}`,
       html: `
         <!DOCTYPE html>
